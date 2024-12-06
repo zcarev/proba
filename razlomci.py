@@ -6,9 +6,11 @@ def zbroj_razlomaka(zamjene:dict):
         aa = aa.replace(ii, zamjene[ii])
     return aa
 
+rj_brojnik = st.number_input('Unesite brojnik', value=None, step=1)
+rj_nazivnik = st.number_input('Unesite nazivnik', value=None, step=1)
 
 keys = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', '+']
-values = ['1','2','3','4', 'brojnik', 'nazivnik', '-']
+values = ['1','2','3','4', str(rj_brojnik), str(rj_nazivnik), '-']
 zamjene = dict(map(lambda i,j : (i,j) , keys,values))
 
 
