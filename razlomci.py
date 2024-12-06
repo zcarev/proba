@@ -17,7 +17,7 @@ with cols[1]:
 
 with cols[1]:
     with cols1[1]:
-        rjy = st.number_input('Unesite rješenje za y', value=None, step=1)
+        rjy = st.number_input('Unesite rješenje za nazivnik', value=None, step=1)
         if rjy == 4:
             st.write('Bravo! - Točan odgovor za y')
         else:
