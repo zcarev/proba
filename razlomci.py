@@ -19,9 +19,9 @@ with cols[1]:
     with cols1[1]:
         rjy = st.number_input('Unesite rješenje za nazivnik', value=None, step=1)
         if rjy == 4:
-            st.write('Bravo! - Točan odgovor za y')
+            st.write('Bravo! - Točan odgovor za nazivnik')
         else:
-            st.write('Unesite točan odgovor za y')
+            st.write('Unesite točan odgovor za nazivnik')
 
 
 ss = ss.replace('x', str(rjx))
