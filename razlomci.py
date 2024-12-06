@@ -10,7 +10,7 @@ cols1 = st.columns(2)
 with cols[1]:
     with cols1[0]:
         rjx = st.number_input('Unesite brojnik', value=None, step=1)
-        if rjx == 1:
+        if rjx == 5:
             st.write('Bravo! - Točan brojnik')
         else:
             st.write('Unesite točan odgovor za brojnik')
@@ -18,7 +18,7 @@ with cols[1]:
 with cols[1]:
     with cols1[1]:
         rjy = st.number_input('Unesite rješenje za y', value=None, step=1)
-        if rjy == 2:
+        if rjy == 4:
             st.write('Bravo! - Točan odgovor za y')
         else:
             st.write('Unesite točan odgovor za y')
